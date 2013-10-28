@@ -1,0 +1,7 @@
+include *.in
+include *.md
+include *.py
+recursive-include sparsehash *.h
+recursive-include sparsehash *.pyx
+recursive-include sparsehash *.pxd
+recursive-include sparsehash *.py
