@@ -50,7 +50,8 @@ distutils.core.setup(
     packages=['sparsehash'],
     author='Matthew Honnibal',
     author_email='honnibal@gmail.com',
-    version='1.0',
+    version='0.11',
+    url='http://github.com/syllog1sm/cython-sparsehash',
     cmdclass={'build_ext': Cython.Distutils.build_ext},
     ext_modules=exts,
 )
