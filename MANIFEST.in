@@ -1,8 +1,6 @@
 include *.in
-include *.md
 include *.py
-include *.rst
-recursive-include sparsehash *.h
-recursive-include sparsehash *.pyx
-recursive-include sparsehash *.pxd
+recursive-include includes *.h
 recursive-include sparsehash *.py
+recursive-include sparsehash *.pxd
+recursive-include sparsehash *.cpp
